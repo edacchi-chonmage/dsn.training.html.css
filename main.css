@@ -1,1 +1,116 @@
 @charset 'utf-8';
+body{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+a{
+    text-decoration: none;
+}
+h1, h2, h3, a, p{
+    color: #333333;
+    font-family: YuGothic, "ヒラギノ角ゴ Pro", Meiryo, メイリオ, "MS P Gothic", sans-serif;
+    line-height: 1.6em;
+}
+
+header{
+    padding: 30px;
+}
+header img{
+    max-width: 240px;
+}
+
+.top-message h1 img{
+    max-width: 600px;
+    padding-top: 16px;
+}
+.top-message p{
+    font-size: 20px;
+    padding-top: 16px; 
+}
+
+.our-mission{
+    position: relative;
+    margin: 0 auto;
+    width: 500px;
+    margin-top: 200px;
+}
+
+.our-mission p{
+    text-align: left;
+    font-size: 12px;
+    width: 516px;
+}
+
+
+h2 img{
+    max-width: 403px;
+    opacity: 0.2;
+    position: absolute;
+    top: -26px;
+    left: -86px;
+    padding-top: 100x;
+}
+.our-mission h3{
+    width: 550px;
+}
+.entry-btn img{
+    width: 150px;
+    position: fixed;
+    right: 80px;
+    bottom: 20px;
+}
+
+.totop-btn{
+    bottom: 275px;
+    right: 0;
+    display: inline-block;
+    width: 200px;
+    transform: rotate(90deg);
+    color: #333333;
+    text-align: right;
+    font-size: 12px;
+    line-height: 1.5;
+    position: fixed;
+}
+.totop-btn:before{
+    content: '';
+    top: 50%;
+    left: 0;
+    width: 116px;
+    height: 1px;
+    display: inline-block;
+    background-color: #333333;
+    margin-bottom: 4px; 
+    /* border-top: solid 0.6px #333333; */
+}
+
+nav{
+    width: 60px;
+    height: 100%;
+    background-color: #000000;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+#hamburger{
+    position: relative;
+}
+#hamburger span {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+#hamburger span:nth-of-type(1) {
+    top: 20px;
+}
+#hamburger span:nth-of-type(2) {
+    top: 40px;
+}
+#hamburger span:nth-of-type(3) {
+    bottom: 20px;
+}
