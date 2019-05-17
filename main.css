@@ -1,1 +1,27 @@
 @charset 'utf-8';
+img.Bizreach{
+    width: 270px;
+}
+@media only screen and (min-width: 769px)
+.p-what-we-are__wrapper h2 br {
+    display: none;
+}
+* {
+    box-sizing: border-box;
+}
+}
+img.entry{
+    width: 178px;
+}
+p.message{
+    color: 333333;
+    margin: 63px 0px 0px;
+    font-family: YuGothic;
+    font-size: 24px;
+}
+main{
+    padding: 85px 48px;
+}
+main > h1{
+    width:792px
+}
