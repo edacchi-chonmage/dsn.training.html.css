@@ -1,1 +1,48 @@
 @charset 'utf-8';
+
+header > img{
+    width : 270px;
+    padding-top: 10px;
+    padding-left: 240px;
+}
+
+h1 > img{
+    width:  792px;
+    padding-left: 180px;
+    margin-top: 40px;
+}
+.credo {
+    font-size: 24px;
+    line-height: 1.666667;
+    color : #333333;
+    padding-left: 180px;
+}
+
+h2 > img{
+    width: 483px;
+    opacity: 0.2;
+    margin-top: 200px;
+    margin-left: 290px;
+}
+
+h2 > span{
+    display: block;
+    font-size: 24px;
+    margin-top: -30px;
+    margin-left: 400px;
+}
+
+.dna {
+    margin-left: 400px;
+    max-width: 602px;
+    margin-top: 28px;
+    font-size: 14px;
+}
+
+aside > img{
+    display : block;
+    width: 178px; 
+    padding : 0px 1000px ;
+
+
+}
