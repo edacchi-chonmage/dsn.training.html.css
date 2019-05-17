@@ -3,10 +3,17 @@
 *{
     margin:0;
     padding:0;
+    box-sizing: border-box;
 }
 
 body{
     display:flex;
+    font-family: YuGothic;
+    color: #000000;
+}
+
+img{
+    vertical-align: bottom;    
 }
 
 
