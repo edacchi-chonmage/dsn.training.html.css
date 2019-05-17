@@ -1,14 +1,14 @@
 @charset 'utf-8';
 
 main {
-    margin: 60px;
+    margin: 50px 80px;
 }
 
 
 header > img {
     width: 280px;
-    margin-left: 50px;
-    margin-top: 30px;
+    margin-left: 40px;
+    margin-top: 0px;
 }
 footer {
     padding: 100px;
