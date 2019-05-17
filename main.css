@@ -1,1 +1,61 @@
 @charset 'utf-8';
+/* 画像 */
+
+header > img {
+    width: 300px;
+    position: relative;
+    left: 40px
+    
+    
+    
+}
+
+h1 > img {
+    width: 800px;
+    position: relative;
+    left: 40px 
+    
+    
+}
+
+h2 > img {
+    width: 500px;
+    opacity: 0.4;
+    position: relative;
+    top: 50px;
+    left:300px 
+    
+    
+     
+}
+
+
+button > img {
+    width: 150px;
+    position: relative;
+    left:1200px  
+    
+}
+
+/* テキスト */
+
+h3{
+    font-weight: bold;
+    font-size: 23px;
+    font-family: 'ヒラギノ角ゴ ProN W3';
+    text-align: center;
+}
+
+.concept {
+    font-size: 23px;
+    font-family: 'ヒラギノ角ゴ ProN W3';
+    position: relative;
+    left:40px
+    
+}
+
+.text {
+    font-size: 14px;
+    font-family: 'ヒラギノ角ゴ ProN W3';
+    margin-left:400px;
+}
