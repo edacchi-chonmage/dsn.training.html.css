@@ -1,1 +1,51 @@
 @charset 'utf-8';
+
+
+header > img {
+    margin-top: 60px;
+    padding: 0px 50px;
+    width: 280px;
+}
+
+h1 > img { 
+   width: 800px;
+   transition: 300ms ease-out;
+   margin-top: 60px;
+}
+
+
+h2 > img {
+    padding: 0px 200px;
+    margin-top: 70px;
+    width: 360px;
+    opacity: 0.2;
+}
+
+.s {
+    margin-top: 50px;
+    font-size: 21px;
+    font-family: "游ゴシック", YuGothic;
+}
+
+
+.internet {
+    padding: 0px 270px;
+    margin-top: -50px; 
+    font-family: "游ゴシック", YuGothic;
+    font-weight: bold;
+    font-size: 21px;
+
+}
+
+.bun {
+    padding: 0px 360px;
+    margin-top: 50px;
+    font-size: 12px;
+    font-family: "游ゴシック", YuGothic;
+}
+
+.enter >img {
+    width:200px;
+    padding: 0px 900px;
+    margin-top: 50px;
+}
