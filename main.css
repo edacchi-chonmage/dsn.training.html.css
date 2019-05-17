@@ -37,8 +37,8 @@ h1 > img {
     color: #444444;
     font-size: 24px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    
 }
-
 .mission {
     position: relative;
     margin-top: 150px;
@@ -57,9 +57,7 @@ h2 {
     margin-left: 100px;
 }
 
-.mission {
-    
-}
+
 .mission img {
     width: 500px;
     opacity: 0.15;
@@ -84,6 +82,10 @@ aside {
 button{
     border: 0;
     background: 0;
+    transition: 500ms;
+}
+button:hover {
+    opacity: 0.5;
 }
 .side-bar {
     width: 50px;
