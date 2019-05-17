@@ -1,1 +1,141 @@
 @charset 'utf-8';
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    display:flex;
+}
+
+.header__img{
+    margin-left:20px;
+    margin-top:32px;
+    width:240px;
+}
+
+header, main .inner{
+    margin:0 240px;
+}
+
+main{
+    margin-top:60px;
+}
+
+.main__title{
+    width:680px;
+}
+
+.whoWeAre{
+    margin-top: 32px;
+}
+
+.whoWeAre__para{
+    font-size:20px;
+    font-weight: lighter;
+    line-height: 1.8;
+}
+
+.ourMission{
+    margin:160px 100px 0 100px;
+}
+
+.ourMission h2 img{
+    width:400px;
+    opacity:0.2;
+}
+
+.ourMission__inner{
+    margin-top:-32px;
+    margin-left:88px;
+}
+
+.ourMission__inner__title{
+    font-weight: 500;
+    font-size:20px;
+}
+
+.ourMission__inner__para{
+    margin-top:20px;
+    margin-right:80px;
+    font-size: 12px;
+    line-height: 1.8;
+    font-weight: lighter;
+}
+
+.entryButton{
+    position:fixed;
+    z-index:1000;
+    background: none;
+    border:none;
+    width:160px;
+    height:auto;
+    cursor: pointer;
+    top:79vh;
+    left:80vw;
+}
+.entryButton__img{
+    width:100%;
+}
+.entryButton:hover{
+    opacity:0.8;
+}
+
+aside{
+    width:120px;
+    height:100vh;
+    display:flex;
+}
+
+nav{
+    display:block;
+    width:100%;
+    height:100vh;
+    background: #000;
+    margin-left:0;
+}
+
+.nav__bars{
+    margin-left:12px;
+    margin-right:12px;
+    margin-top:16px;
+    width:32px;
+    height:32px;
+    background:none;
+    border: none;
+    cursor: pointer;
+}
+
+.nav__bars__one{
+    background: #fff;
+    height:3px;
+    margin-top:7px;
+    width:28px;
+}
+
+.nav__bars__one:nth-of-type(3){
+    width:16px;
+}
+.goToTopLink{
+    position:fixed;
+    transform:rotate(90deg);
+    z-index:10001;
+    top:80vh;
+    left:80vw;
+    width:400px;
+    color: #000;
+    font-size:10px;
+    text-decoration:none;
+    font-weight: lighter;
+}
+
+.goToTopLink:before{
+    content:"";
+    width:120px;
+    height:1px;
+    background:#000;
+    display:inline-block;
+    margin-right:20px;
+    margin-bottom:4px;
+}
