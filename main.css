@@ -9,14 +9,16 @@ body{
     display:flex;
 }
 
+
+.wrapper{
+    margin:0 auto;
+    width:960px;
+} 
+
 .header__img{
     margin-left:20px;
     margin-top:32px;
     width:240px;
-}
-
-header, main .inner{
-    margin:0 240px;
 }
 
 main{
@@ -37,26 +39,26 @@ main{
     line-height: 1.8;
 }
 
-.ourMission{
+.column{
     margin:160px 100px 0 100px;
 }
 
-.ourMission h2 img{
+.column h2 img{
     width:400px;
     opacity:0.2;
 }
 
-.ourMission__inner{
+.column__inner{
     margin-top:-32px;
     margin-left:88px;
 }
 
-.ourMission__inner__title{
+.column__inner__title{
     font-weight: 500;
     font-size:20px;
 }
 
-.ourMission__inner__para{
+.column__inner__para{
     margin-top:20px;
     margin-right:160px;
     font-size: 12px;
