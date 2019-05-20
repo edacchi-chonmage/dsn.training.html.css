@@ -1,6 +1,14 @@
 @charset 'utf-8';
 img.Bizreach{
     width: 270px;
+    height: 22px;
+    margin-left: 46px;
+}
+.matome{
+    max-width: 1200px;
+    padding-left: 8px;
+    padding-top: 48px;
+    transition: 600ms;
 }
 @media only screen and (min-width: 769px)
 .p-what-we-are__wrapper h2 br {
@@ -24,4 +32,20 @@ main{
 }
 main > h1{
     width:792px
+}
+
+　＜ーーー！　とりあえずこれを最初にやったほうがいいよ↓ん！ーーー＞
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 1000px;
+    margin: 0px;
+}
+
+.body{
+
 }
