@@ -19,31 +19,31 @@ img{
 
 .wrapper{
     margin:0 auto;
-    width:960px;
+    max-width:960px;
 } 
 
 .header__img{
-    margin-left:20px;
+    margin-left:40px;
     margin-top:32px;
     width:240px;
 }
 
 main{
-    margin-top:60px;
+    margin-top:72px;
 }
 
-.main__title{
-    width:680px;
+.who-we-are__title{
+    width:600px;
 }
 
-.whoWeAre{
+.who-we-are__inner{
     margin-top: 32px;
 }
 
-.whoWeAre__para{
-    font-size:20px;
+.who-we-are__inner__para{
+    font-size:18px;
     font-weight: lighter;
-    line-height: 1.8;
+    line-height: 1.6;
 }
 
 .column{
@@ -56,12 +56,11 @@ main{
 }
 
 .column__inner{
-    margin-top:-32px;
+    margin-top:-24px;
     margin-left:88px;
 }
 
 .column__inner__title{
-    font-weight: 500;
     font-size:20px;
 }
 
@@ -73,7 +72,7 @@ main{
     font-weight: lighter;
 }
 
-.entryButton{
+.entry-button{
     position:fixed;
     z-index:1000;
     background: none;
@@ -81,13 +80,13 @@ main{
     width:160px;
     height:auto;
     cursor: pointer;
-    top:80vh;
-    left:80vw;
+    top:78vh;
+    left:82vw;
 }
-.entryButton__img{
+.entry-button__img{
     width:100%;
 }
-.entryButton:hover{
+.entry-button:hover{
     opacity:0.8;
 }
 
@@ -127,7 +126,7 @@ nav{
 .nav__bars__one:nth-of-type(3){
     width:16px;
 }
-.goToTopLink{
+.go-to-top-link{
     position:fixed;
     transform:rotate(90deg);
     z-index:10001;
@@ -141,7 +140,7 @@ nav{
     font-style: italic;
 }
 
-.goToTopLink:before{
+.go-to-top-link:before{
     content:"";
     width:120px;
     height:1px;
